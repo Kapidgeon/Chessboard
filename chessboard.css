@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    border-bottom: 3px solid black;
+    width: 300px;
+    margin: auto;
+}
+
+#frame {
+    display: table;
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#playarea {
+    width: 90%;
+    height: 90%;
+    margin: 30px auto 0px auto;
+    border: 3px solid rgb(198, 149, 89);
+    background-image: url(https://previews.123rf.com/images/donatas1205/donatas12051609/donatas1205160900021/63825611-wooden-texture-light-brown-wood-background.jpg?fj=1);
+    border-collapse: collapse;
+}
+
+tr, td {
+    border: 1px solid black;
+    padding: 0px;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+.oddrow td:nth-child(even)  {
+    background-color: black;
+}
+
+.evenrow td:nth-child(odd) {
+    background-color: black;
+}
+
+td.blackpieces {
+    text-align: center;
+    font-size: 400%;
+    line-height: 0em;
+    text-shadow: 0px 0px 9px #ffffff, 0px 0px 3px #aaaaaa;
+}
+
+td.whitepieces {
+    color: white;
+    text-align: center;
+    font-size: 400%;
+    line-height: 0em;
+    text-shadow: 0px 0px 3px #000000;
+}
